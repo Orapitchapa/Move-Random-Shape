@@ -1,0 +1,126 @@
+$primary-color: #807e7a;
+
+body {
+    background-color: #FFE5E5;
+}
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 50px;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.top-row {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    gap: 10px;
+    margin-left : 250px;
+}
+
+.bottom-row {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    gap: 10px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: $primary-color;
+    border-radius: 50%;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: $primary-color;
+}
+
+.rectangle {
+    width: 190px;
+    height: 120px;
+    background-color: $primary-color;
+}
+
+.ellipse {
+    width: 300px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: $primary-color;
+}
+
+.trapezoid {
+    width: 190px;
+    height: 120px;
+    background-color: $primary-color;
+    clip-path: polygon(20% 0, 80% 0, 100% 100%, 0% 100%);
+}
+
+.parallelogram {
+    width: 190px;
+    height: 120px;
+    background-color: $primary-color;
+    clip-path: polygon(25% 0, 100% 0, 75% 100%, 0% 100%);
+    transform: scaleY(-1);
+}
+
+.triangle {
+    width: 100px;
+    height: 100px;
+    background-color: $primary-color;
+    clip-path: polygon(0 100%, 50% 0, 100% 100%);
+}
+
+.upside-down-triangle {
+    width: 100px;
+    height: 100px;
+    background-color: $primary-color;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+.left-triangle {
+    width: 100px;
+    height: 100px;
+    background-color: $primary-color;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
+.right-triangle {
+    width: 100px;
+    height: 100px;
+    background-color: $primary-color;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%);
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-switch {
+    display: flex;
+    align-items: center;
+}
+
+.language-select {
+    margin-left: auto;
+}
+.buttonh:hover {
+    background-color: #ffa200;
+}
+
+.pill {
+    background-color: #6eda78; 
+    border-radius: 50px; 
+    padding: 2px 10px; 
+    display: inline-block; 
+    color:white ;
+    position: relative;
+    top: 20px;
+
+}
